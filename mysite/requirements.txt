@@ -7,6 +7,13 @@ pip install -r requirements.txt
 
 python manage.py runserver
 
+github terminology
+fork = copy code so you can make it your own
+clone = download code to your computer so you can edit it
+
 #In Python Anywhere
 git clone https://github.com/thebullfighter/CODE2120.git #This goes into the prompt
 https://github.com/thebullfighter/CODE2120
+
+mkvirtualenv DJANGO --python=/usr/bin/python3.6 #enter
+#every time you work in the BASH console type  ##workon DJANGO##

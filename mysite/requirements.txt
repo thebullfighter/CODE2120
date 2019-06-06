@@ -6,3 +6,7 @@ sqlparse==0.3.0
 pip install -r requirements.txt
 
 python manage.py runserver
+
+#In Python Anywhere
+git clone https://github.com/thebullfighter/CODE2120.git #This goes into the prompt
+https://github.com/thebullfighter/CODE2120

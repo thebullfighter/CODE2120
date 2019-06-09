@@ -17,3 +17,12 @@ https://github.com/thebullfighter/CODE2120
 
 mkvirtualenv DJANGO --python=/usr/bin/python3.6 #enter
 #every time you work in the BASH console type  ##workon DJANGO##
+
+
+Sites;
+http://localhost:8000/example/example_post/ #this is so you can locally refresh your test site on your computer
+
+All instructions are done via github
+
+https://www.pythonanywhere.com/user/louie/files/home/louie/CODE2120/mysite/mysite #This is where you can experiment and also acts as afree host service
+http://louie.pythonanywhere.com/ #This is the test site to see if the code you have done actually works

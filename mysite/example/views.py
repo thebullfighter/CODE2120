@@ -32,7 +32,7 @@ def example_post(request):
 				index += 1
 				# index = index + 1
 
-			return JsonResponse({"log":log})
+			return JsonResponse({"Count":index})
 		except Exception as e:
 			exc_type, exc_obj, exc_tb = sys.exc_info()
 			other = sys.exc_info()[0].__name__

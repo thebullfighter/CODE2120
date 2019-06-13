@@ -29,7 +29,8 @@ def example_post(request):
 
 			index = 0
 			for i in jsob["demo"]:
-				index - += - 1
+				index += 1
+				# index = index + 1
 
 			return JsonResponse({"log":log})
 		except Exception as e:

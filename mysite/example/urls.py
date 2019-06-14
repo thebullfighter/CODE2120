@@ -6,4 +6,5 @@ urlpatterns = [
 	path(r'example_get/<str:var_a>/<int:var_b>',  views.example_get),
 	#this is the name of a function
 	path(r'example_post/', views.example_post),
+	path(r'fib/', views.fib),
 ]

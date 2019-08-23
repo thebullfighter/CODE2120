@@ -1,3 +1,60 @@
 from django.shortcuts import render
 
 # Create your views here.
+
+import random
+
+class insultGenerator(object):
+    def __init__(self):
+        # lists of insult fodder
+
+        self.nounList = ['loser',
+                         'jerk',
+                         'nerd',
+                         'doodie head',
+                         'butthead',
+                         'bonehead',
+                         'dunce',
+                         'moron',
+                         'nerf herder']
+        self.adjectiveList = ['smelly',
+                              'ugly',
+                              'gimpy',
+                              'slimy',
+                              'crabby',
+                              'scabby',
+                              'scratchy']
+        self.connectorList = ['are one',
+                              'are the biggest',
+                              'are becoming a']
+    def getInsult(self):
+        insult = "you"
+
+        # connector phrase
+        connector = random.randint(1, len(self.connectorList))
+        insult += " " + self.connectorList[connector-1]
+
+        # adjectives
+        adjCount = random.randint(2,4)
+        random.shuffle(self.adjectiveList)
+        for i in xrange(0,adjCount):
+            if i != 0:
+                insult += ", "
+
+            else:
+                insult += " "
+            insult += self.adjectiveList[i]
+
+        # ending noun
+        noun = random.randint(1,len(self.nounList))
+        insult += " " + self.nounList[noun-1]
+        return insult
+
+
+# example
+if __name__ == '__main__':
+    ig = insultGenerator()
+    print ig.getInsult()
+    print ig.getInsult()
+    print ig.getInsult()
+    print ig.getInsult()

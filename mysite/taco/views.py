@@ -1,8 +1,12 @@
 from django.shortcuts import render
+from django.views.decorators.csrf import csrf_exempt
+from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
+import json
+from .models import *
+import os, sys
+import random
 
 # Create your views here.
-
-import random
 
 class insultGenerator(object):
     def __init__(self):

@@ -14,22 +14,22 @@ class insultGenerator(object):
     def __init__(self):
         # lists of insult fodder
 
-        self.nounList = ['loser',
-                         'jerk',
+        self.nounList = ['Slacker',
+                         'Buddha',
                          'nerd',
-                         'doodie head',
+                         'doodle head',
                          'butthead',
-                         'bonehead',
-                         'dunce',
+                         'assface',
+                         'derp',
                          'moron',
                          'nerf herder']
-        self.adjectiveList = ['smelly',
+        self.adjectiveList = ['skinny',
                               'ugly',
-                              'gimpy',
+                              'shrimp',
                               'slimy',
-                              'crabby',
+                              'scrooge',
                               'scabby',
-                              'scratchy']
+                              'bitch']
         self.connectorList = ['are one',
                               'are the biggest',
                               'are becoming a']

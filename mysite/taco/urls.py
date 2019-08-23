@@ -6,5 +6,5 @@ from . import views
 urlpatterns = [
 	path('admin/', admin.site.urls),
     path(r'example/', include('example.urls')),
-    path(r'taco', include('taco.urls')),
+    path(r'getInsult/', include('getInsult.urls')),
 ]

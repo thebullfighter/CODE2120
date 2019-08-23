@@ -8,6 +8,8 @@ import random
 
 # Create your views here.
 
+##
+
 class insultGenerator(object):
     def __init__(self):
         # lists of insult fodder
@@ -31,6 +33,8 @@ class insultGenerator(object):
         self.connectorList = ['are one',
                               'are the biggest',
                               'are becoming a']
+
+    @csrf_exempt
     def getInsult(self):
         insult = "you"
 

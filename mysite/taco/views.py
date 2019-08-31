@@ -8,8 +8,6 @@ import random
 
 # Create your views here.
 
-##
-
 class insultGenerator(object):
     def __init__(self):
         # lists of insult fodder
